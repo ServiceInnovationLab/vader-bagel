@@ -14,7 +14,7 @@ VADER Sentiment Analysis. VADER (Valence Aware Dictionary and sEntiment Reasoner
 
 This package requires [Python 3](https://www.python.org/downloads/) and [pip](https://pip.pypa.io/en/stable/installing/) .
 
-## Setup Aotearoa Open Fisca in pyenv
+## Setup Vader Bagel in pyenv
 
 ### Step 1: Install pyenv
 
