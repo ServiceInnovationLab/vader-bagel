@@ -53,12 +53,32 @@ We want to use the exact version of python this project recommends
  python --version # This should match the version in .python-version file
 ```
 
-#### Step 4: Install Dev dependencies
+### Step 4: Install Dev dependencies
 
 ```sh
 pip install -r requirements.txt
 ```
 
+### Step 5: Install requests package
+
+If you have pip installed:
+
+```sh
+sudo pip install requests (OR pip3 install requests for python3)
+```
+
+OR using your systems package manager (for Ubuntu):
+
+```sh
+apt-get install python-requests
+```
+
 ## Running
 
 Scripts / commands are in the bin directory of this repo
+
+Example:
+
+```sh
+python bin/process.py
+```
